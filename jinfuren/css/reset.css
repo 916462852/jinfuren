@@ -1,0 +1,55 @@
+html,body,header,section,nav,ul,li,a,img,p,div,span,h1,h2,h3,h4,h5,h6,table,tr,td,form,input,button{
+	margin: 0;
+	padding: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #000;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight: normal;
+}
+input{	
+	outline: none;
+}
+
+.clearfix:after{
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	overflow: hidden;
+}
+
+img{
+	vertical-align: top;
+}
+
+.fontwhite{
+	color:#fff;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.w1000{
+width: 1000px;
+margin: 0 auto;
+}
+.publicfont{
+	font-size: 12px;
+}
+button{
+	outline: none;
+}
+.span14{
+	font-size: 14px;
+}
+em{
+	font-style: normal;
+}
